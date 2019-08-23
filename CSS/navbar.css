@@ -12,7 +12,6 @@ li {
   background: darkcyan;
   display: block;
   float: left;
-  height: calc(3  rem + 16px);
   width: 10rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
