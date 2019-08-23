@@ -1,58 +1,63 @@
-a {
-    text-decoration: none;
-  }
-  
-  nav {
-      font-family: monospace;
-  }
-  
-  ul {
-    background: darkorange;
-      list-style: none;
-      margin: 0;
-      padding-left: 0;
-  }
-  
-  li {
-      color: #fff;
-    background: darkorange;
-      display: block;
-      float: left;
-      padding: 3rem;
-      position: relative;
-      text-decoration: none;
-    transition-duration: 0.5s;
-  }
-    
-  li a {
-    color: #fff;
-  }
-  
-  li:hover {
-      background: red;
-      cursor: pointer;
-  }
-  
-  ul li ul {
-      background: orange;
-      visibility: hidden;
-    opacity: 0;
-    min-width: 5rem;
-      position: absolute;
-    transition: all 0.5s ease;
-    margin-top: 1rem;
-      left: 0;
-    display: none;
-  }
-  
-  ul li:hover > ul,
-  ul li ul:hover {
-    visibility: visible;
-    opacity: 1;
-    display: block;
-  }
-  
-  ul li ul li {
-      clear: both;
+.z-index1 {
+    z-index: 1;
+}
+.z-index2 {
+    z-index: 2;
+}
+.html, body {
+    height: 100%;
+}
+.body {
+    background-color: #ddd;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: white;
     width: 100%;
-  }
+    height: calc(6rem + 16px);
+    position: relative;
+    position: sticky;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 1rem;
+}
+.nameblock {
+    background-color: darkcyan;
+    color: white;
+    float: left;
+    display: block;
+    padding: 3rem;
+    position: absolute;
+    right: calc(50% + 286px);
+    text-decoration: none;
+}
+.section {
+    background-color: white;
+    width: calc( 960px - 4rem);
+    padding: 2rem;
+    margin: auto;
+    flex: 1 0 auto;
+    min-height: 100%;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+.breaker {
+    background-color: darkcyan;
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+.footer {
+    position: absolute;
+    background-color: #666;
+    color: white;
+    width: 100%;
+    padding-top: 4rem;
+    bottom: 0px;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 10px;
+    line-height: 2.5;
+}
