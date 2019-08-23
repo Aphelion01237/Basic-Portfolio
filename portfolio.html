@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="text.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Noto+Sans&display=swap" rel="stylesheet">
 </head>
-<body>
-    
+
+<body class="body">
+    <header class="header z-index2">
+        <div class="nameblock">Derek Paterson</div>
+        <nav role="navigation" style="float:right">
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="#">Contact</a>
+                    <ul class="dropdown">
+                        <li><a onClick="javascript:window.open('mailto:aphelion01237@gmail.com', 'mail');event.preventDefault()"
+                                href="mailto:aphelion01237@gmail.com">Email me</a></li>
+                        <li><a href="https://github.com/Aphelion01237" target="_blank">Github</a></li>
+                        <li><a href="#">Sub-3</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="section">
+        <h1><b>Portfolio</b></h1>
+        <hr>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio facere qui numquam est ipsa voluptate magnam.
+            Nemo maiores doloribus, ex cupiditate quisquam nisi vitae nihil enim. Odit sit ea fugiat?</p>
+    </section>
+    <footer class="footer">
+        <div class="breaker z-index2"></div>
+        Copyright &#169;
+    </footer>
 </body>
+
 </html>
