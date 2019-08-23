@@ -20,10 +20,21 @@
 .header {
     background-color: white;
     width: 100%;
-    max-width: 100%;
+    max-width: 960px;
     height: calc(6rem + 16px);
     position: relative;
     position: sticky;
+    font-family: 'Anton', sans-serif;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.headerbackground {
+    background-color: white;
+    width: 100%;
+    max-width: 100%;
+    height: calc(6rem + 16px);
+    /* position: relative;
+    position: sticky; */
     font-family: 'Anton', sans-serif;
     margin-bottom: 1rem;
 }
