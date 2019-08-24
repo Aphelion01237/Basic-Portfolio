@@ -13,8 +13,8 @@ li {
   display: block;
   float: right;
   width: 8rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  /* padding-top: 2rem;
+  padding-bottom: 2rem; */
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -26,9 +26,21 @@ li:hover {
   }
 li a {
   color: #fff;
+  background: darkcyan;
+  display: block;
+  float: right;
+  width: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.5s;
   }
 li a:hover {
   color:darkred;
+  background:salmon;
+  cursor: pointer;
 }
 ul li ul {
   background: darkcyan;

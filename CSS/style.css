@@ -21,7 +21,7 @@
     font-family: 'Anton', sans-serif;
     margin: auto;
     margin-bottom: 1rem;
-    transition-duration: 0.75s;
+    transition-duration: 0.5s;
     box-shadow: 0rem .25rem .25rem rgba(0, 0, 0, 0.2);
 }
 .nameblock {
@@ -35,7 +35,7 @@
     position: absolute;
     text-decoration: none;
     text-align: center;
-    transition-duration: 0.75s;
+    transition-duration: 0.5s;
 }
 .navspacing {
     width: 62rem; 
