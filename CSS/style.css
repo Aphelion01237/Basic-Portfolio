@@ -14,7 +14,7 @@
     flex-direction: column;
     max-width: 100%;
     height: 100vh;
-    background-image: url("/Images/interlaced.png");
+    background-image: url("https://github.com/Aphelion01237/Basic-Portfolio/blob/master/Images/interlaced.png?raw=true");
     background-repeat: repeat;
 }
 .header {
