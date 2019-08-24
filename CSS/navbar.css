@@ -11,29 +11,30 @@ li {
   color: #fff;
   background: darkcyan;
   display: block;
-  float: left;
-  width: 10rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  float: right;
+  width: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   position: relative;
   text-align: center;
   text-decoration: none;
   transition-duration: 0.5s;
   }
-    
+li:hover {
+  background:salmon;
+  cursor: pointer;
+  }
 li a {
   color: #fff;
   }
-li:hover {
-  background: red;
-  cursor: pointer;
-  }
+li a:hover {
+  color:darkred;
+}
 ul li ul {
   background: darkcyan;
   visibility: hidden;
   opacity: 0;
-  min-width: 5rem;
-  width: 10rem;
+  width: 8rem;
   position: absolute;
   transition: all 0.5s ease;
   margin-top: 1rem;
@@ -43,7 +44,7 @@ ul li ul {
 ul li:hover > ul,
 ul li ul:hover {
   visibility: visible;
- opacity: 1;
+  opacity: 1;
   display: block;
   }
 ul li ul li {

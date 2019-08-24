@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/navbar.css">
     <link rel="stylesheet" href="CSS/style.css">
-
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Anton|Noto+Sans&display=swap" rel="stylesheet">
 </head>
@@ -35,10 +34,29 @@
     </header>
     <section class="section">
         <p>
-            <h1><b>Portfolio</b></h1>
+            <h1><b>Contact</b></h1>
             <hr>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio facere qui numquam est ipsa voluptate magnam.
-            Nemo maiores doloribus, ex cupiditate quisquam nisi vitae nihil enim. Odit sit ea fugiat?
+            <form action="mailto:aphelion01237@gmail.com" method="post" enctype="text/plain">
+                <div>
+                    <label for="name">Name:</label>
+                    <br>
+                    <input type="text" id="name" name="name" size="30">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="text" id="email" name="email" size="30">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <br>
+                    <input type="text" id="message" name="message" size="120" style="height: 20rem;">
+                </div>
+                <div>
+                    <input class ="button" type="submit" value="send" style="float:left; margin-right: 1rem;">
+                    <input class ="button" type="reset" value="reset">
+                </div>
+            </form>
         </p>
     </section>
     <footer class="footer">

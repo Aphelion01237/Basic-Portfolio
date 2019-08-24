@@ -20,46 +20,43 @@
 .header {
     background-color: white;
     width: 100%;
-    max-width: 960px;
-    height: calc(6rem + 16px);
+    max-width: 100%;
+    height: 5rem;
     position: relative;
     position: sticky;
     font-family: 'Anton', sans-serif;
     margin: auto;
     margin-bottom: 1rem;
-}
-.headerbackground {
-    background-color: white;
-    width: 100%;
-    max-width: 100%;
-    height: calc(6rem + 16px);
-    /* position: relative;
-    position: sticky; */
-    font-family: 'Anton', sans-serif;
-    margin-bottom: 1rem;
+    transition-duration: 0.75s;
 }
 .nameblock {
     background-color: darkcyan;
     color: white;
     float: left;
     display: block;
-    padding: 3rem;
+    width: 15rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     position: absolute;
-    right: calc(50% + 286px);
     text-decoration: none;
+    text-align: center;
+    transition-duration: 0.75s;
+}
+.navspacing {
+    width: 62rem; 
+    position: relative;
+    margin:auto;
 }
 .section {
     background-color: white;
-    width: calc( 960px - 4rem);
+    width: 58rem;
     padding: 2rem;
+    max-width: 62rem;
     margin: auto;
     flex: 1 0 auto;
     min-height: calc(100% - (4rem+ 15px));
     line-height: 1.6;
     margin-bottom: 1rem;
-}
-.content {
-    padding: 2rem;
 }
 .breaker {
     background-color: darkcyan;
@@ -79,4 +76,18 @@
     text-align: center;
     font-size: 10px;
     line-height: 2.5;
+}
+.biopic {
+    float: left; 
+    padding-right: 1rem; 
+    padding-bottom: 1rem;
+}
+.button {
+    background-color: darkcyan;
+    border: none;
+    color: white;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    display: inline-block;
 }
