@@ -51,6 +51,7 @@
     flex: 1 0 auto;
     line-height: 1.5;
     margin-bottom: 1rem;
+    box-shadow: 0.25rem .25rem .25rem rgba(0, 0, 0, 0.2);
 }
 .breaker {
     background-color: darkcyan;
